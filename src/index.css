@@ -1,0 +1,55 @@
+
+div.profile-card {
+    background: #fff;
+    border: 1px solid #c8ced3;
+    border-radius: 10px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #73818f;
+    font-size: 16px;
+    justify-content: center;
+}
+
+.image-container img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+div .profile-name {
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+div .tabs-container {
+    border: 1px solid #c8ced3;
+    border-radius: 10px;
+    color: #73818f;
+    height: 80vh;
+    padding: 15px;
+
+}
+div.actions-button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+input.editable-input {
+    outline: none;
+    border: none;
+    padding: 3px;
+    border-bottom: 1px solid #73818f;
+    width: 100%;
+}
+
+.ant-table-tbody > tr.ant-table-row-level-0:hover > td {
+    background: unset !important;
+  }
+
+div.text-div {
+    width: auto;
+    min-height: 30px;
+}
